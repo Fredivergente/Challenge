@@ -1,0 +1,131 @@
+
+*{
+    /*background: #ffffff;*/
+    font-family: 'Prompt';
+    font-weight:400;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+
+main{
+    margin-bottom: 25px;
+    margin-left: 5%;
+    display:inline-block;
+}
+
+body{
+    flex-wrap: wrap;
+}
+
+section {
+    display: inline-grid;
+    justify-content: start;
+    align-content: center;
+    align-items: start;
+    justify-items: stretch;
+}
+/*Revision*/
+.text-area{
+    border: none;
+    background: #2df348;
+    color: #000000;
+    margin: 0px 20px 0px 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    border-radius: 30px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #383e46;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 30px;
+    color: #2df348;
+    margin: 0px 20px 0px 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 2.5%;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.info{
+    color: gray;
+    font-size: 18px;
+}
+
+.botones{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.btn-encriptar{
+    background-color: #000000;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+
+}
+
+.btn-desencriptar{
+    background: #ffffff;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 250px;
+
+}
+
+.copiar{
+    border: 1px solid #000000;
+    border-radius: 24px;
+    background-color: #2df348;
+    color: #ffffff;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 250px;
+
+}
+
+footer{
+    background-color: black;
+    color: #2df348;
+    text-align: center;
+    padding: 1% 20px;
+    scroll-padding-block-end:inherit ;
+    font-size-adjust: 12px;
+}
+
+iframe{
+    padding-top: 5%;
+}
+
+/*@media screen and (max-width: 760px) {
+    *{width: -webkit-fill-available;
+    }
+}
