@@ -1,40 +1,41 @@
 
 *{
-    /*background: #ffffff;*/
+    background: #000000;
     font-family: 'Prompt';
     font-weight:400;
     font-size: 32px;
     line-height: 100%;
 }
 
+.cabecera{
+    color: aliceblue;
+    height: 5;
+    margin-bottom: 1rem;
+}
+
 .logo{
     padding-top: 10px;
     margin-left: 10px;
-    width: 5%;
-}
+    width: 7.5%;
+filter: invert(1);}
 
 main{
-    margin-bottom: 25px;
-    margin-left: 5%;
-    display:inline-block;
-}
-
-body{
-    flex-wrap: wrap;
+    margin: 5% 200%;
+    display: flex;
 }
 
 section {
     display: inline-grid;
-    justify-content: start;
+    justify-content:center;
     align-content: center;
-    align-items: start;
+    align-items: center;
     justify-items: stretch;
 }
-/*Revision*/
+
 .text-area{
-    border: none;
-    background: #2df348;
-    color: #000000;
+    border:inset;
+    background: #000000;
+    color: #ffffff;
     margin: 0px 20px 0px 20px;
     padding-left: 5%;
     padding-top: 5%;
@@ -43,28 +44,18 @@ section {
     text-transform: lowercase;
 }
 
-::placeholder{color: #383e46;}
-    .text-area:focus{
-        outline: none;
-    }
-
 .mensaje{
-    background: rgb(0, 0, 0);
+    background: rgb(24, 0, 240);
     background-repeat: no-repeat;
     background-position: center;
-    border: none;
+    border: inset;
     border-radius: 30px;
-    color: #2df348;
+    color: #b3b3b3;
     margin: 0px 20px 0px 20px;
     padding-left: 5%;
     padding-top: 5%;
-    padding-right: 2.5%;
+    padding-right: 5%;
 }
-
-.mensaje:focus{
-    outline: none;
-}
-
 .info{
     color: gray;
     font-size: 18px;
@@ -78,7 +69,7 @@ section {
 }
 
 .btn-encriptar{
-    background-color: #000000;
+    background-color: #f76767;
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: white;
@@ -103,7 +94,7 @@ section {
 .copiar{
     border: 1px solid #000000;
     border-radius: 24px;
-    background-color: #2df348;
+    background-color: #a8a8a8;
     color: #ffffff;
     cursor: pointer;
     height: 50px;
@@ -113,19 +104,9 @@ section {
 }
 
 footer{
-    background-color: black;
-    color: #2df348;
+    color: #ffffff;
     text-align: center;
     padding: 1% 20px;
     scroll-padding-block-end:inherit ;
     font-size-adjust: 12px;
-}
-
-iframe{
-    padding-top: 5%;
-}
-
-/*@media screen and (max-width: 760px) {
-    *{width: -webkit-fill-available;
-    }
 }
